@@ -3,7 +3,7 @@
 
 ;; Author: Dave Pearson <davep@davep.org>
 ;; Version: 1.1
-;; Keywords: comm net http web
+;; Keywords: comm, net, http, web
 ;; URL: https://github.com/davep/webinfo.el
 
 ;; webinfo.el is free software distributed under the terms of the GNU
