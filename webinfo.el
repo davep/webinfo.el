@@ -1,6 +1,10 @@
 ;;; webinfo.el --- Get information about a web server.
 ;; Copyright 2002 by Dave Pearson <davep@davep.org>
-;; $Revision: 1.1 $
+
+;; Author: Dave Pearson <davep@davep.org>
+;; Version: 1.1
+;; Keywords: comm net http web
+;; URL: https://github.com/davep/webinfo.el
 
 ;; webinfo.el is free software distributed under the terms of the GNU
 ;; General Public Licence, version 2. For details see the file COPYING.
