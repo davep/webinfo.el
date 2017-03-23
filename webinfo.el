@@ -1,12 +1,20 @@
-;;; webinfo.el - Get information about a web server.
+;;; webinfo.el --- Get information about a web server.
 ;; Copyright 2002 by Dave Pearson <davep@davep.org>
 ;; $Revision: 1.1 $
 
 ;; webinfo.el is free software distributed under the terms of the GNU
 ;; General Public Licence, version 2. For details see the file COPYING.
 
+;;; Commentary:
+;;
+;; Provides a simple command for getting information about a web server at a
+;; given host, on a given port.
+
+;;; Code:
+
 ;;;###autoload
 (defun webinfo (host port)
+  "Get some information about HTTP server at HOST on PORT."
   (interactive
    (list
     (read-string "Host: " '("localhost" . 0))
@@ -24,4 +32,4 @@
 
 (provide 'webinfo)
 
-;;; webinfo.el ends here.
+;;; webinfo.el ends here
