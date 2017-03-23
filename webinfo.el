@@ -8,10 +8,13 @@
 (require 'cl)
 
 ;;;###autoload
-(defun webinfo (host)
-  (interactive "sHost: ")
+(defun webinfo (host port)
+  (interactive
+   (list
+    (read-string "Host: " '("localhost" . 0))
+    (read-string "Port: " '("80" . 0))))
   (with-output-to-temp-buffer "*webinfo*"
-    (let ((s (open-network-stream (format "webinfo-%s" host) nil host "http")))
+    (let ((s (open-network-stream (format "webinfo-%s" host) nil host port)))
       (when s
         (unwind-protect
              (progn
