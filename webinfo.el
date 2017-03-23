@@ -5,8 +5,6 @@
 ;; webinfo.el is free software distributed under the terms of the GNU
 ;; General Public Licence, version 2. For details see the file COPYING.
 
-(require 'cl)
-
 ;;;###autoload
 (defun webinfo (host port)
   (interactive
