@@ -1,5 +1,5 @@
 ;;; webinfo.el --- Get information about a web server.
-;; Copyright 2002 by Dave Pearson <davep@davep.org>
+;; Copyright 2002-2017 by Dave Pearson <davep@davep.org>
 
 ;; Author: Dave Pearson <davep@davep.org>
 ;; Version: 1.1
