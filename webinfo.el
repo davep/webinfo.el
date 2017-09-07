@@ -23,7 +23,7 @@
    (list
     (read-string "Host: " '("localhost" . 0))
     (read-string "Port: " '("80" . 0))))
-  (with-output-to-temp-buffer "*webinfo*"
+  (with-output-to-temp-buffer (format "*webinfo - %s:%s*" host port)
     (let ((s (open-network-stream (format "webinfo-%s-%s" host port) nil host port)))
       (when s
         (unwind-protect
