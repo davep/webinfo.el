@@ -1,4 +1,4 @@
-;;; webinfo.el --- Get information about a web server.
+;;; webinfo.el --- Get header information about a web server.
 ;; Copyright 2002-2017 by Dave Pearson <davep@davep.org>
 
 ;; Author: Dave Pearson <davep@davep.org>
@@ -21,8 +21,8 @@
 
 ;;; Commentary:
 ;;
-;; Provides a simple command for getting information about a web server at a
-;; given host, on a given port.
+;; Provides a simple command for getting header information from a web
+;; server at a given host, on a given port.
 
 ;;; Code:
 
